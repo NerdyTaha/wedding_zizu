@@ -1,0 +1,79 @@
+:root {
+  --bg-color: #F6EFEA;
+  --text-color: #6C4E43;
+  --accent-color: #8C5E50;
+  --font-cursive: 'Great Vibes', cursive;
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+  font-family: var(--font-serif);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+.app-container {
+  max-width: 480px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: var(--bg-color);
+  position: relative;
+  overflow-x: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.section {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 50vh;
+}
+
+.cursive-title {
+  font-family: var(--font-cursive);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: var(--accent-color);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  color: var(--accent-color);
+  opacity: 0.6;
+}
+.divider::before,
+.divider::after {
+  content: "";
+  height: 1px;
+  width: 50px;
+  background-color: var(--accent-color);
+  margin: 0 10px;
+}
+
+.mute-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  z-index: 1000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add google fonts in index.html */
