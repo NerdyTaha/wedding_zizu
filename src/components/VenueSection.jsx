@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const VenueSection = () => {
   // 📍 REPLACE THIS LINK WITH YOUR ACTUAL GOOGLE MAPS LINK
-  const GOOGLE_MAPS_LINK = "https://maps.app.goo.gl/6JD8WQQG5Sz9sELCA";
+  const GOOGLE_MAPS_LINK = "https://www.google.com/maps/place/Kohinoor+Marriage+Lawn/@19.1376393,72.8376308,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7b7003545f96d:0xa6c942432d1de54e!8m2!3d19.1376393!4d72.8376308!16s%2Fg%2F11y8sr97vm?entry=tts&g_ep=EgoyMDI2MDkyMi4wIPu8ASoASAFQAw%3D%3D&skid=99dde49e-ddea-441f-bb2a-7390d8e47b6c";
 
   return (
     <motion.div 
